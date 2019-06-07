@@ -81,7 +81,7 @@ body {
     margin-top:-10px;
     margin-bottom: 15px;
     line-height: 22px;
-    border-bottom: 2px solid rgb(238, 238, 238);
+    border-bottom: 1px solid rgb(238, 238, 238);
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 20px;
     font-weight: 800;
@@ -111,7 +111,7 @@ body {
   h3 {
     margin-bottom: 30px;
     line-height: 22px;
-    border-bottom: 2px solid rgb(238, 238, 238);
+    border-bottom: 3px solid rgb(238, 238, 238);
     height: 55px;
     font-family: Georgia, Times, "Times New Roman", serif;
     font-size: 30px;
@@ -142,5 +142,36 @@ body {
     color: white;
     color: rgba(204, 204, 204, 0.993);
   }
+
+  /*contact page */
+  p1 {
+    color: rgba(102, 100, 100, 0.993);
+    font-weight: 2px;
+    font-size: 18px;
+    margin-left: 4px;
+  }
+  
+  input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin:5px;
+    border: 1px solid rgba(231, 228, 228, 0.993);
+    box-sizing: border-box;
+    font-size: 15px;
+  }
+  textarea{
+    height: 200px
+  }
+
+  .form-submit-button {
+    background: rgba(4, 153, 153, 0.933);
+    width: 130px;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+  }
+
+  /* portfolio page */
+
 
 
